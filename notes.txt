@@ -50,6 +50,20 @@ note:
     - what happens with local and remote not lining up with branches. (one is deleted on one but not the other? (missing remote))
 cmd pallet: git delete (Git: Delete Branch)
 
+# Auto Fetch repo for VS Code #
+note:
+    - make changes on one device then push to remote. would be nice to see that changes happened on another device using the same remote repo
+https://code.visualstudio.com/docs/editor/versioncontrol#_remotes
+https://git-scm.com/docs/git-fetch
+
+# gist url shorting #
+https://git.io
+
+# more training from github #
+https://services.github.com
+
+# free git ebook #
+google: "git free ebook" found at git-scm.com
 
 # Test #
 - brand out to 2nd branch
