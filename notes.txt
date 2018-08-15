@@ -1,3 +1,57 @@
+# Get Doc and DL #
+https://get-scm.com
+
+# Version Check - command line/terminal #
+git --version
+
+# Set Default GitHub Indentiy for current machine #
+git config --global user.email "<github account email>"
+git config --global user.name "<github username>" # git up will ask for password later on when needed. such at push to remote repo time.
+
+# Link and Push local repo to remote repo #
+note:
+    - run on term with local repo, watch path
+    - usually remote is blank at this point (not sure what would happen when you do with this a remote repo with commits alredy on it.)
+git remote add origin <url of remote repo>.git # linking? example: "git remote add origin https://github.com/davidearlyoung/gitty-the-1st.git"
+git push -u origin master # will have to prove you own the online repo account by login prompt
+
+# Caching your GitHub password in Git #
+notes:
+    - pass get asked at cloning from remote to local and pushing from local to remote
+https://help.github.com/articles/caching-your-github-password-in-git/
+git config --global credential.helper <gitusername>
+
+# Clone of Remote Repo to Local Repo in VS Code (for 2nd machine?) #
+note:
+    - currenltly doing through command pallet. There are other ways.
+    - will need the remote repo url. (.git not needed on the end of the url)
+ctrl + shift + p (command pallet in VS Code)
+git clone (Git: Clone)
+
+# "Create" of Repo in VS Code (for 2nd machine?) #
+note:
+    - currenltly doing through command pallet. There are other ways.
+ctrl + shift + p (command pallet in VS Code)
+git clone (Git: Clone)
+
+# New local branch from Repo in VS Code #
+cmd pallet: git create (Git Create Branch)
+
+# Merging of Repo #
+note:
+    - merging is done locally and then pushed to remote
+    - common to delete the old branch once it's been merged back into master. (done on web for remote repo and with the local)
+cmd pallet: git merg (Git: Merge Branch)
+
+# Deleting of a Branch #
+note:
+    - see: # merging of repo #
+    - delete needs to be done on local, and on the remote repo's. remote can be done online by web interface.
+    - what happens with local and remote not lining up with branches. (one is deleted on one but not the other? (missing remote))
+cmd pallet: git delete (Git: Delete Branch)
+
+
+# Test #
 - brand out to 2nd branch
 - make changes
 - merg back
