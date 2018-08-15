@@ -1,0 +1,5 @@
+- brand out to 2nd branch
+- make changes
+- merg back
+- remove the 2nd branch web on git hub
+- what would happen if I don't remove it on the client and try to commit, push and such?
